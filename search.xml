@@ -12,17 +12,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Principle_of_IS</title>
-    <url>/Phoenix/2025/02/18/Principle-of-IS/</url>
-    <content><![CDATA[<h2 id="a-modest-teacher-hutianlei"><a href="#a-modest-teacher-hutianlei" class="headerlink" title="a modest teacher hutianlei"></a>a modest teacher hutianlei</h2><p>10course 40hw 50final</p>
-<h2 id="基础概念"><a href="#基础概念" class="headerlink" title="基础概念"></a>基础概念</h2><h2 id="密码学"><a href="#密码学" class="headerlink" title="密码学"></a>密码学</h2><h2 id="服务安全"><a href="#服务安全" class="headerlink" title="服务安全"></a>服务安全</h2><p>GPG</p>
-<h2 id="网络与安全"><a href="#网络与安全" class="headerlink" title="网络与安全"></a>网络与安全</h2><p>wireshark 抓包</p>
-]]></content>
-      <tags>
-        <tag>learing notes</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Logic_design</title>
     <url>/Phoenix/2025/02/04/Logic-design/</url>
     <content><![CDATA[<p>前期准备： 在linux下搭建了verilog环境+逻辑基础自学<br>（哈哈哈turing complete也做得差不多了）</p>
@@ -40,11 +29,22 @@
 <h2 id="速通数逻-（cm）"><a href="#速通数逻-（cm）" class="headerlink" title="速通数逻 （cm）"></a>速通数逻 （cm）</h2><h3 id="lecutre-1"><a href="#lecutre-1" class="headerlink" title="lecutre 1"></a>lecutre 1</h3><p>布尔代数 组合电路 时序电路<br>逻辑设计 verilog</p>
 <h3 id="信号？-模拟信号与数字信号"><a href="#信号？-模拟信号与数字信号" class="headerlink" title="信号？ 模拟信号与数字信号"></a>信号？ 模拟信号与数字信号</h3><p>数字量化？ 进入信号要求较低 出信号要求高（why？保证输出信号的高质量） 导致blank（容限区）落入容限区后，随便01即可</p>
 <h3 id="二进制算数计算"><a href="#二进制算数计算" class="headerlink" title="二进制算数计算"></a>二进制算数计算</h3><p>加法略 LSB 最低有效位 （Most Significant Byte）<br>减法 产生 borrow in<br>十进制到二进制？ 整数部分短除法（除二取余逆向写） 八进制？十六进制？以小数点为中心即可 不足就在外侧补0</p>
-<p>二进制的状态映射 也就是找对数上限<br>BCD码相加（0-9）1010及其后均非法 必须加六补偿<br>独热码 只有一位是1 对于机器来说能够很方便表示数字<br>（强调进制与编码不互通！）<br>纠错码？<br>信道编码 在信源编码上加奇偶校验码 编完还会解码<br>偶校验 加上校验位使得8位之和为偶数<br>格雷码 相邻数之间仅有一位翻转 第一种生成方式？ 二进制码通过最高位下顺即可 （相邻码位之间的变化较小 有效防止信号skew 保证了信号稳定）<br><img src="/Phoenix/images/Fake_muzimi.png" alt="alt text"></p>
+<p>二进制的状态映射 也就是找对数上限<br>BCD码相加（0-9）1010及其后均非法 必须加六补偿<br>独热码 只有一位是1 对于机器来说能够很方便表示数字<br>（强调进制与编码不互通！）<br>纠错码？<br>信道编码 在信源编码上加奇偶校验码 编完还会解码<br>偶校验 加上校验位使得8位之和为偶数<br>格雷码 相邻数之间仅有一位翻转 第一种生成方式？ 二进制码通过最高位下顺即可 （相邻码位之间的变化较小 有效防止信号skew 保证了信号稳定）<br><img src="/Phoenix/./images/Fake_muzimi.png" alt="alt text"></p>
 ]]></content>
       <categories>
         <category>learning notes</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Principle_of_IS</title>
+    <url>/Phoenix/2025/02/18/Principle-of-IS/</url>
+    <content><![CDATA[<h2 id="a-modest-teacher-hutianlei"><a href="#a-modest-teacher-hutianlei" class="headerlink" title="a modest teacher hutianlei"></a>a modest teacher hutianlei</h2><p>10course 40hw 50final</p>
+<h2 id="基础概念"><a href="#基础概念" class="headerlink" title="基础概念"></a>基础概念</h2><h2 id="密码学"><a href="#密码学" class="headerlink" title="密码学"></a>密码学</h2><h2 id="服务安全"><a href="#服务安全" class="headerlink" title="服务安全"></a>服务安全</h2><p>GPG</p>
+<h2 id="网络与安全"><a href="#网络与安全" class="headerlink" title="网络与安全"></a>网络与安全</h2><p>wireshark 抓包</p>
+]]></content>
+      <tags>
+        <tag>learing notes</tag>
+      </tags>
   </entry>
   <entry>
     <title>database</title>
