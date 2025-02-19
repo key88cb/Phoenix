@@ -32,7 +32,7 @@
 <p>二进制的状态映射 也就是找对数上限<br>BCD码相加（0-9）1010及其后均非法 必须加六补偿<br>独热码 只有一位是1 对于机器来说能够很方便表示数字<br>（强调进制与编码不互通！）<br>纠错码？<br>信道编码 在信源编码上加奇偶校验码 编完还会解码<br>偶校验 加上校验位使得8位之和为偶数<br>格雷码 相邻数之间仅有一位翻转 第一种生成方式？ 二进制码通过最高位下顺即可 （相邻码位之间的变化较小 有效防止信号skew 保证了信号稳定）<br><img src="/Phoenix/Fake_muzimi.png" alt="没做！"></p>
 ]]></content>
       <categories>
-        <category>learning notes</category>
+        <category>notes</category>
       </categories>
   </entry>
   <entry>
@@ -57,14 +57,8 @@
 <h2 id="KEY-相关"><a href="#KEY-相关" class="headerlink" title="KEY 相关"></a>KEY 相关</h2><p>key<br>superkey<br>minimakey<br>primary key<br>foreign key 是另外一张表中的主键 会做检查 不能乱填</p>
 ]]></content>
       <tags>
-        <tag>learning notes</tag>
+        <tag>notes</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>博客园迁移</title>
-    <url>/Phoenix/2025/02/13/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E8%BF%81%E7%A7%BB/</url>
-    <content><![CDATA[<p><a href="https://www.cnblogs.com/neko-bear/p/18571565">OOP</a><br><a href="https://www.cnblogs.com/neko-bear/p/18494446">计算机系统原理</a>另外一篇涉及到一些原因就不放了</p>
-]]></content>
   </entry>
   <entry>
     <title>Principle_of_IS</title>
@@ -74,7 +68,13 @@
 <h2 id="网络与安全"><a href="#网络与安全" class="headerlink" title="网络与安全"></a>网络与安全</h2><p>wireshark 抓包</p>
 ]]></content>
       <tags>
-        <tag>learing notes</tag>
+        <tag>notes</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>博客园迁移</title>
+    <url>/Phoenix/2025/02/13/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E8%BF%81%E7%A7%BB/</url>
+    <content><![CDATA[<p><a href="https://www.cnblogs.com/neko-bear/p/18571565">OOP</a><br><a href="https://www.cnblogs.com/neko-bear/p/18494446">计算机系统原理</a>另外一篇涉及到一些原因就不放了</p>
+]]></content>
   </entry>
 </search>
